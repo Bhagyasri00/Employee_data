@@ -5,11 +5,34 @@ In this project, we conducted a comprehensive analysis of employee data using Po
 # Database Structure:
 The Employee_data database comprises six tables:
 
-employees: Contains employee information such as employee ID, name, and hire date.
-departments: Lists all departments within the company, including department ID and name.
-salaries: Records salary information for each employee, including salary amount and dates.
-titles: Contains job title information for each employee, including title and dates.
-dept_emp: Links employees to their respective departments, including department ID and employment dates.
-dept_manager: Lists managers for each department, including manager ID and department ID.
+- **Department**: Stores information about different departments within the company.
+
+- **Department_Employee**: Represents the relationship between employees and departments, indicating which employees belong to which departments and their employment dates.
+
+- **Department_Manager**: Records managerial assignments for each department, specifying which employee is managing which department and the dates of their managerial role.
+
+- **Salary**: Stores salary information for each employee, including their salary amount and the dates when the salary was effective.
+
+- **Employee**: Contains detailed information about each employee, such as their name, hire date, and possibly other personal information.
+
+- **Title**: Stores job title information for each employee, indicating their job title and the dates when the title was effective.
+
+
+
+![Untitled](https://github.com/Bhagyasri00/Employee_data/assets/142825445/6047afde-0161-441e-aa4b-ce277c1e52a2)
+
+# Analysis 
+
+- Analyzed salary distributions and averages across departments and job titles.
+
+- Examined employee tenure and historical salary trends.
+
+- Examined the distribution and composition of job titles within departments.
+
+- Assessed the number of active managers in each department.
+
+- Provided insights into managerial salaries and department compositions.
+
+
 
 
