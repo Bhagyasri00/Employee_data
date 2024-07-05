@@ -13,7 +13,7 @@ import numpy as np
 import sys
 
 def connect_to_db():
-    connection = psycopg2.connect(user= 'postgres', password = 'Bunny@123',
+    connection = psycopg2.connect(user= 'postgres', password = '',
                                   host = 'localhost',
                                   port= 5432,
                                   database= 'employee_data')
